@@ -4,7 +4,7 @@
   "description": "gulp start project",
   "scripts": {
     "dev": "gulp watch",
-    "build": "gulp build",
+    "build:dev": "gulp build",
     "build:prod": "gulp build --prod",
     "prepare": "husky install"
   },
@@ -15,6 +15,10 @@
     "@babel/core": "^7.16.0",
     "@babel/preset-env": "^7.16.4",
     "@babel/register": "^7.16.0",
+    "babelify": "^10.0.0",
+    "browser-sync": "^2.27.7",
+    "browserify": "^17.0.0",
+    "del": "^6.0.0",
     "eslint": "^8.3.0",
     "eslint-config-airbnb": "^19.0.1",
     "eslint-plugin-import": "^2.25.3",

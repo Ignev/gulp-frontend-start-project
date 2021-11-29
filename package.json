@@ -1,0 +1,10 @@
+{
+  "name": "gulp-frontend-start-project",
+  "version": "1.0.0",
+  "description": "gulp start project",
+  "scripts": {
+  },
+  "keywords": [],
+  "author": "belov.zhenya-belov1999@yandex.ru",
+  "license": "WTFPL"
+}

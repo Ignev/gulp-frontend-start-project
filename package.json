@@ -3,8 +3,26 @@
   "version": "1.0.0",
   "description": "gulp start project",
   "scripts": {
+    "dev": "gulp watch",
+    "build": "gulp build",
+    "build:prod": "gulp build --prod",
+    "prepare": "husky install"
   },
   "keywords": [],
   "author": "belov.zhenya-belov1999@yandex.ru",
-  "license": "WTFPL"
+  "license": "WTFPL",
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
+    "@babel/register": "^7.16.0",
+    "eslint": "^8.3.0",
+    "eslint-config-airbnb": "^19.0.1",
+    "eslint-plugin-import": "^2.25.3",
+    "gulp": "^4.0.2",
+    "husky": "^7.0.4",
+    "lint-staged": "^12.1.2"
+  },
+  "lint-staged": {
+    "*.js": "eslint --cache --fix"
+  }
 }

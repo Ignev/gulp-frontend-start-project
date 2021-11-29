@@ -6,9 +6,9 @@ const config = {
     root: srcPath,
     sass: `${srcPath}/scss`,
     js: `${srcPath}/js`,
-    pug: `${srcPath}/pug`,
-    images: `${srcPath}/assets/images`,
     fonts: `${srcPath}/assets/fonts`,
+    images: `${srcPath}/assets/images`,
+    pug: `${srcPath}/pug`,
   },
 
   dest: {
@@ -16,8 +16,8 @@ const config = {
     html: destPath,
     css: `${destPath}/css`,
     js: `${destPath}/js`,
-    images: `${destPath}/images`,
     fonts: `${destPath}/fonts`,
+    images: `${destPath}/images`,
   },
 
   setEnv() {
